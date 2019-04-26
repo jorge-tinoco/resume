@@ -1,0 +1,215 @@
+/* line 3, C:/GIT/resume/scss/_global.scss */
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  /* line 9, C:/GIT/resume/scss/_global.scss */
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+/* line 15, C:/GIT/resume/scss/_global.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+/* line 27, C:/GIT/resume/scss/_global.scss */
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+/* line 32, C:/GIT/resume/scss/_global.scss */
+h2 {
+  font-size: 3.5rem;
+}
+
+/* line 36, C:/GIT/resume/scss/_global.scss */
+h3 {
+  font-size: 2rem;
+}
+
+/* line 40, C:/GIT/resume/scss/_global.scss */
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+/* line 45, C:/GIT/resume/scss/_global.scss */
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+/* line 52, C:/GIT/resume/scss/_global.scss */
+.project {
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.2rem;
+}
+
+/* line 56, C:/GIT/resume/scss/_global.scss */
+.project > * {
+  margin: 0.6rem;
+}
+
+/* line 62, C:/GIT/resume/scss/_global.scss */
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+/* line 73, C:/GIT/resume/scss/_global.scss */
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+/* line 76, C:/GIT/resume/scss/_global.scss */
+.social-icons a:hover {
+  background-color: #2A4272;
+}
+
+/* line 82, C:/GIT/resume/scss/_global.scss */
+.dev-icons {
+  font-size: 3rem;
+}
+
+/* line 85, C:/GIT/resume/scss/_global.scss */
+.dev-icons .list-inline-item i:hover {
+  color: #2A4272;
+}
+
+/* line 2, C:/GIT/resume/scss/_nav.scss */
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+/* line 8, C:/GIT/resume/scss/_nav.scss */
+#sideNav .navbar-toggler:focus {
+  outline-color: #3f62aa;
+}
+
+@media (min-width: 992px) {
+  /* line 15, C:/GIT/resume/scss/_nav.scss */
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  /* line 26, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  /* line 31, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  /* line 37, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  /* line 44, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* line 48, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  /* line 50, C:/GIT/resume/scss/_nav.scss */
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+/* line 1, C:/GIT/resume/scss/_resume-item.scss */
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+/* line 7, C:/GIT/resume/scss/_resume-item.scss */
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  /* line 13, C:/GIT/resume/scss/_resume-item.scss */
+  section.resume-section {
+    min-height: 100vh;
+  }
+  /* line 16, C:/GIT/resume/scss/_resume-item.scss */
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 23, C:/GIT/resume/scss/_resume-item.scss */
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* line 1, C:/GIT/resume/scss/_bootstrap-overrides.scss */
+.bg-primary {
+  background-color: #2A4272 !important;
+}
+
+/* line 5, C:/GIT/resume/scss/_bootstrap-overrides.scss */
+.text-primary {
+  color: #2A4272 !important;
+}
+
+/* line 9, C:/GIT/resume/scss/_bootstrap-overrides.scss */
+a {
+  color: #2A4272;
+}
+
+/* line 11, C:/GIT/resume/scss/_bootstrap-overrides.scss */
+a:hover, a:focus, a:active {
+  color: #15223a;
+}
+
+/*# sourceMappingURL=../css/resume.map */
